@@ -13,7 +13,7 @@ OPENSHIFT_DOMAIN=3node.example.com
 #CA_KS_PASSWORD=password
 #SVR_KS_PASSWORD=password
 #CLNT_KS_PASSWORD=password
-OPENSHIFT_DOMAIN=3node.example.com
+OPENSHIFT_DOMAIN=openshift.example.com
 
 
 # Create:
