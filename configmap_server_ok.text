@@ -1,0 +1,18 @@
+Name:         server
+Namespace:    jeff-tls
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+application.properties:
+----
+quarkus.http.ssl.certificate.key-store-file=/deployments/tls/server.keystore
+quarkus.http.ssl.certificate.key-store-password=password
+quarkus.http.ssl.certificate.trust-store-file=/deployments/tls/ca/truststore
+quarkus.http.ssl.certificate.trust-store-password=ca-keystore-password
+
+BinaryData
+====
+
+Events:  <none>
